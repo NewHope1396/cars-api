@@ -1,7 +1,7 @@
 const getModels = async (req, res, next) => {
   try {
     res.json({
-      name: "Balalusha",
+      answer: "It still works",
     });
   } catch (error) {
     error.message = "Server error";
