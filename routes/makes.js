@@ -6,6 +6,6 @@ const ctrl = require("../controllers");
 
 router.get("/", ctrl.getMakes);
 
-router.get("/models", ctrl.getModels);
+router.get("/models/:model", ctrl.getModels);
 
 module.exports = router;
